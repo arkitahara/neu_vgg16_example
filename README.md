@@ -8,12 +8,12 @@ The environment file `mse_env.yml` is included in this repository. Use this to b
 
 ## Project Structure
 The main directory `neu_vgg16_example` should have the following contents:
-- data
-- notebooks
-- results
-- src
-- mse_env.yml
-- README.md
+- `data`
+- `notebooks`
+- `results`
+- `src`
+- `mse_env.yml`
+- `README.md`
 
 ## Data
 Images for this example were pulled from K. Song and Y. Yan [1]. The data are not included in this repository. Please use the original author's source below to fetch the data.
