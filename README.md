@@ -1,6 +1,8 @@
 # neu_vgg16_example
 Tutorial to use pre-trained VGG16 for defect classification on NEU Surface Defect Database. This is intended for demonstration purposes at Carnegie Mellon University Department of Materials Science and Engineering. 
 
+The original paper for this work can be found here: https://doi.org/10.1007/s40192-018-0116-9
+
 ## Setting up the environment
 The environment file `mse_env.yml` is included in this repository. Use this to build a stable virtual environment to run this code. If you need help setting this up, [read the docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
@@ -15,7 +17,6 @@ The main directory `neu_vgg16_example` should have the following contents:
 
 ## Data
 Images for this example were pulled from K. Song and Y. Yan [1]. The data are not included in this repository. Please use the original author's source below to fetch the data.
-
 
 [1] K. Song and Y. Yan, “A noise robust method based on completed local binary patterns for hot-rolled steel strip surface defects,” Applied Surface Science, vol. 285, pp. 858-864, Nov. 2013.(paper)
 
