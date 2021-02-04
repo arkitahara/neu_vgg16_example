@@ -88,6 +88,7 @@ dependencies:
   - matplotlib-base=3.2.2=py38h5d868c9_1
   - mistune=0.8.4=py38h25fe258_1002
   - multidict=4.7.5=py38h1e0a361_2
+  - natsort=7.1.1=pyhd8ed1ab_0
   - nbclassic=0.2.6=pyhd8ed1ab_0
   - nbclient=0.5.1=py_0
   - nbconvert=6.0.7=py38h578d9bd_3
