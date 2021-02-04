@@ -1,6 +1,8 @@
 # ignore these
 /data/**
 /src/original_code.py
+/results/**
 
 # keep this
-!/data/README.md
+# !/data/README.md
+!/**/README.md

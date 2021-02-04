@@ -13,4 +13,4 @@ def get_files(directory, extension='*.png'):
     """
     
     files = glob.glob(os.path.join(directory, extension))
-    return sorted(files)
+    return natsorted(files)

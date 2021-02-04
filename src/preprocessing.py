@@ -38,3 +38,24 @@ def image_tensor(image):
     preprocessed_tensor = preprocess_input(x)
     
     return preprocessed_tensor
+
+
+def process_image(image, input_size=224):
+    """Perform all necessary preprocessing of an image for VGG16.
+    Args:
+        image (numpy array): assume grayscale image of arbitrary square size
+        input_size (int): standard size to resize image to (default=224 for VGG16)
+    
+    Returns:
+        tensor_output (numpy array): fully preprocessed tensor
+
+    Notes:
+        - This function resizes the image to (input_size x input_size)
+        - Then it applies the `image_tensor` function (inside this module)
+    
+    Requirements:
+        - `skimage`
+    """
+    image = skimage.transform.resize(image, (input_size, input_size))
+    tensor_output = image_tensor(image)
+    return tensor_output
