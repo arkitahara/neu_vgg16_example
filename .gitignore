@@ -1,3 +1,6 @@
-# ignore these directories
-data/**
-src/original_code.py
+# ignore these
+/data/**
+/src/original_code.py
+
+# keep this
+!/data/README.md
