@@ -1,5 +1,6 @@
 import numpy as np
 import skimage
+from skimage.transform import resize
 from tensorflow.keras.applications.vgg16 import preprocess_input
 
 def image_tensor(image):
@@ -56,6 +57,6 @@ def process_image(image, input_size=224):
     Requirements:
         - `skimage`
     """
-    image = skimage.transform.resize(image, (input_size, input_size))
+    image = resize(image, (input_size, input_size))
     tensor_output = image_tensor(image)
     return tensor_output
